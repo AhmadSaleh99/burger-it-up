@@ -3,7 +3,7 @@ import ImageSlider from "./ImageSlider";
 
 const Discover = () => {
   return (
-    <section>
+    <section className="flex  gap-7 justify-center items-center flex-col md:flex-row">
       <ImageSlider />
       <div className="flex justify-center items-center m-4 text-justify flex-col">
         <h4 className="text-3xl my-2">Discover</h4>

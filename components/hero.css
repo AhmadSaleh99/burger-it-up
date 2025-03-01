@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Nova+Oval&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap");
+
+svg {
+  font-family: "Nova Oval", sans-serif;
+  /* width: 100%;
+  height: 100%; */
+}
+svg text {
+  animation: stroke 6s alternate;
+  stroke-width: 2;
+  stroke: #fff0ff;
+  font-size: 60px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 240, 255, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 240, 255, 1);
+  }
+  80% {
+    fill: rgba(255, 255, 255, 0);
+    stroke: rgba(255, 240, 255, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(255, 255, 255, 1);
+    stroke: rgba(255, 240, 255, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
+
+svg.f1 {
+  font-family: "Luckiest Guy", sans-serif;
+  height: 24px;
+  margin-right: 20px;
+}
+svg.f1 text {
+  animation: stroke 5s alternate;
+  /* stroke-width: 2; */
+  stroke: #ffffff;
+  font-size: 30px;
+}
+@keyframes stroke {
+  0% {
+    fill: rgba(191, 191, 191, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-dashoffset: 25%;
+    stroke-dasharray: 0 50%;
+    stroke-width: 2;
+  }
+  70% {
+    fill: rgba(191, 191, 191, 0);
+    stroke: rgba(255, 255, 255, 1);
+  }
+  80% {
+    fill: rgba(191, 191, 191, 0);
+    stroke: rgba(255, 255, 255, 1);
+    stroke-width: 3;
+  }
+  100% {
+    fill: rgba(191, 191, 191, 1);
+    stroke: rgba(255, 255, 255, 0);
+    stroke-dashoffset: -25%;
+    stroke-dasharray: 50% 0;
+    stroke-width: 0;
+  }
+}
