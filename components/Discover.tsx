@@ -5,7 +5,7 @@ const Discover = () => {
   return (
     <section
       id="aboutus"
-      className="flex  gap-7 justify-center items-center flex-col md:flex-row"
+      className="flex  gap-7 justify-center justify-self-center my-7 max-w-6xl w-full items-center flex-col md:flex-row"
     >
       <ImageSlider />
       <div className="flex justify-center items-center m-4 text-justify flex-col">

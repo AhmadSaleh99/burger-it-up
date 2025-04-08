@@ -23,9 +23,12 @@ const Hero = () => {
             </text>
           </svg>
         </div>
-        <button className="text-orange-500 hover:text-black duration-100 ease-in-out bg-opacity-80 bg-white w-1/4 py-2">
+        <a
+          href="#reservation"
+          className="text-orange-500 hover:text-black duration-100 ease-in-out bg-opacity-80 bg-white w-1/4 py-2 text-center"
+        >
           Book a Table
-        </button>
+        </a>
       </div>
       <div className="flex justify-between flex-col mx-2 my-4 text-gray-800 md:flex-row">
         <div className="flex gap-7 mt-3 items-center border-r-2 pr-2 text-red-600 flex-1">

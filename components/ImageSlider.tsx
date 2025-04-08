@@ -34,7 +34,7 @@ export default function App() {
         }}
         // navigation={true}
         modules={[Autoplay]}
-        className="mySwiper w-11/12"
+        className="mySwiper w-full"
       >
         <SwiperSlide>
           <Image
