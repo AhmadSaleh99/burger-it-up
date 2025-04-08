@@ -3,7 +3,10 @@ import React from "react";
 
 const MenuList = () => {
   return (
-    <div className="flex gap-1 mx-3 justify-center items-center flex-wrap">
+    <div
+      id="menu"
+      className="flex gap-1 mx-3 justify-center items-center flex-wrap"
+    >
       {menuList.map((menuItem) => (
         <div
           key={menuItem.id}

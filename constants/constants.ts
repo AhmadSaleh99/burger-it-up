@@ -24,3 +24,10 @@ export const menuList = [
     imgUrl: "/images/menu-image-4.jfif  ",
   },
 ];
+export const menuButtons = [
+  { id: 1, title: "Home", url: "#home" },
+  { id: 2, title: "About Us", url: "#aboutus" },
+  { id: 3, title: "Menu", url: "" },
+  { id: 4, title: "Private Events", url: "" },
+  { id: 5, title: "Contact", url: "" },
+];

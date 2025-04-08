@@ -6,7 +6,7 @@ import LunchDiningOutlinedIcon from "@mui/icons-material/LunchDiningOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 const Hero = () => {
   return (
-    <section>
+    <section id="home">
       <div className="flex justify-center items-center flex-col h-[100vh] bg-[url(/images/hero.jpg)] bg-no-repeat bg-cover">
         <div>
           <svg className="f1">
